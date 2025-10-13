@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash([ -f package.json ])",
+      "Bash(cat:*)",
+      "Bash(npm create:*)",
+      "Bash(npx create-vite:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
